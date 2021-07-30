@@ -20,7 +20,7 @@ const USER_ID = config.REACT_APP_USER_ID
      sendMessage(event) {
          event.preventDefault();
          var templateParams;
-         if(this.state.name.length > 0 & this.state.email.length > 0 & this.state.feedback.length > 0){
+         if(this.state.name.length == 0 | this.state.email.length == 0 | this.state.feedback.length == 0){
              templateParams = {
                  from_name: this.state.name + " (" + this.state.email + ")",
                  to_name: "Rachel Van Sciver",
@@ -35,7 +35,7 @@ const USER_ID = config.REACT_APP_USER_ID
                          alert("Your message was not sent successfully. Error code: " + error.state);
                      });
          } else {
-             alert("Fields cannot be empty");
+             alert("Fields cannot be empty, please try again");
          }
          this.setState({
              name: "",
