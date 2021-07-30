@@ -19,20 +19,24 @@ const USER_ID = config.REACT_APP_USER_ID
      }
      sendMessage(event) {
          event.preventDefault();
-         const templateParams = {
-             from_name: this.state.name + " (" + this.state.email + ")",
-             to_name: "Rachel Van Sciver",
-             feedback: this.state.feedback,
-         };
-         console.log(USER_ID);
-         emailjs
-             .send(SERVICE_ID, TEMPLATE_ID, templateParams, USER_ID)
-             .then(
-                 function(response) {
-                     alert("Message was sent successfully");
-                 }, function(error) {
-                     alert("Your message was not sent successfully. Error code: " + error.state);
-                 });
+         var templateParams;
+         if(this.state.name.length > 0 & this.state.email.length > 0 & this.state.feedback.length > 0){
+             templateParams = {
+                 from_name: this.state.name + " (" + this.state.email + ")",
+                 to_name: "Rachel Van Sciver",
+                 feedback: this.state.feedback,
+             };
+             emailjs
+                 .send(SERVICE_ID, TEMPLATE_ID, templateParams, USER_ID)
+                 .then(
+                     function(response) {
+                         alert("Message was sent successfully");
+                     }, function(error) {
+                         alert("Your message was not sent successfully. Error code: " + error.state);
+                     });
+         } else {
+             alert("Fields cannot be empty");
+         }
          this.setState({
              name: "",
              email: "",
