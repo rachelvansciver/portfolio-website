@@ -1,5 +1,5 @@
 .App{
-  font-family: "Raleway";
+  font-family: Raleway;
   text-align: center;
   color: antiquewhite;
 }
@@ -7,44 +7,80 @@
   font-size: 30px;
   display: flex;
   justify-content: space-evenly;
-  background-color: rgba(5,5,5,0.5);
-  box-shadow: 0px 0 8px rgba(0,0,0, 1);
-
+  box-shadow: 0px 0 8px rgba(0,0,0, .25);
 }
 .links{
-  color: white;
+  color: antiquewhite;
   text-decoration: none;
   font-weight: 30;
 }
-.icons-linkedin{
-  background-image: url("./assets/pictures/1727490_linkedin_social media_job_network_icon.png");
-  height: 64px;
-  width: 64px;
+.image{
+  width: 15vw;
+  height: 25vh;
 }
-.icons-github{
-  background-image: url("./assets/pictures/6214513_github_logo_icon.png");
-  height: 100%;
-  width: 100%;
+.icons-wrap{
+  display:flex;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+}
+.icons{
+  color: antiquewhite;
+  width: 5vw;
+  height: 5vh;
+  padding: 20px 20px 20px 20px;
 }
 .home-page{
   top: 50%;
   left: 25%;
   right: 25%;
   position:fixed;
-  color: antiquewhite;
 }
 .homebutton, .form-button{
-  color: antiquewhite;
-  background: rgba(0,0,0,0);
+  background: #203161;
   font-size: xxx-large;
   justify-content: space-evenly;
-  border-color: rgba(250, 235, 215, 0.5)
+  border-color: rgba(0,0,0, 1);
+  color: antiquewhite;
 }
 .is-active, em{
-  color: aqua;
+  color: #4c955e;
   font-style: normal;
 }
-.about, about-text{
+.text-area {
+  background-color: #20232f;
+  font-size: x-large;
+  font-weight: lighter;
+  padding: 5px;
+  border-width: 3px;
+  border-style: wave;
+  border-color: rgba(255, 255, 255, 0.10);
+}
+.background-canvas{
+  z-index: -1 !important;
+  background: #2a2e3d;
+}
+.text-container{
+  background-color: #20232f;
+  box-shadow: rgba(0,0,0, 0.25);
+  border-width: 5px;
+  border-style: solid;
+  border-color: cyan;
+  font-size: x-large;
+  width: 95%;
+}
+.text-container:hover {
+  transition: all .75ms ease-in-out;
+  transform: scale(1.05);
+}
+.text-container:hover .text-container-inner{
+  transition: all 1s ease-in-out;
+  visibility: visible;
+}
+.text-container-inner{
+  visibility: hidden;
+}
+.about-container{
   min-height: 100vh; /* minimum height = screen height */
   display: flex;
   flex-direction: column;
@@ -52,14 +88,7 @@
   align-items: center;
   font-size: x-large;
 }
-.text-area {
-  font-family: "Raleway";
-  color: antiquewhite;
-  background-color: black;
-  font-size: x-large;
-  font-weight: lighter;
-  padding: 5px;
-  border-width: 3px;
-  border-style: wave;
-  border-color: rgba(255, 255, 255, 0.10);
+.list{
+  list-style-type: none;
+  margin: 0;
 }
