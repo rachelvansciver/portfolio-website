@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.da94dfd8.chunk.css",
-    "main.js": "/portfolio-website/static/js/main.cbd28328.chunk.js",
-    "main.js.map": "/portfolio-website/static/js/main.cbd28328.chunk.js.map",
-    "runtime-main.js": "/portfolio-website/static/js/runtime-main.b3f50213.js",
-    "runtime-main.js.map": "/portfolio-website/static/js/runtime-main.b3f50213.js.map",
-    "static/js/2.8b6a42f7.chunk.js": "/portfolio-website/static/js/2.8b6a42f7.chunk.js",
-    "static/js/2.8b6a42f7.chunk.js.map": "/portfolio-website/static/js/2.8b6a42f7.chunk.js.map",
-    "static/js/3.2bf0c352.chunk.js": "/portfolio-website/static/js/3.2bf0c352.chunk.js",
-    "static/js/3.2bf0c352.chunk.js.map": "/portfolio-website/static/js/3.2bf0c352.chunk.js.map",
-    "index.html": "/portfolio-website/index.html",
-    "static/css/main.da94dfd8.chunk.css.map": "/portfolio-website/static/css/main.da94dfd8.chunk.css.map",
-    "static/js/2.8b6a42f7.chunk.js.LICENSE.txt": "/portfolio-website/static/js/2.8b6a42f7.chunk.js.LICENSE.txt",
-    "static/media/calculator-screenshot.6eefe346.png": "/portfolio-website/static/media/calculator-screenshot.6eefe346.png",
-    "static/media/spinningdonut.726e9385.gif": "/portfolio-website/static/media/spinningdonut.726e9385.gif"
+    "main.css": "/static/css/main.da94dfd8.chunk.css",
+    "main.js": "/static/js/main.cbd28328.chunk.js",
+    "main.js.map": "/static/js/main.cbd28328.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.095b0bd5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.095b0bd5.js.map",
+    "static/js/2.8b6a42f7.chunk.js": "/static/js/2.8b6a42f7.chunk.js",
+    "static/js/2.8b6a42f7.chunk.js.map": "/static/js/2.8b6a42f7.chunk.js.map",
+    "static/js/3.2bf0c352.chunk.js": "/static/js/3.2bf0c352.chunk.js",
+    "static/js/3.2bf0c352.chunk.js.map": "/static/js/3.2bf0c352.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.da94dfd8.chunk.css.map": "/static/css/main.da94dfd8.chunk.css.map",
+    "static/js/2.8b6a42f7.chunk.js.LICENSE.txt": "/static/js/2.8b6a42f7.chunk.js.LICENSE.txt",
+    "static/media/calculator-screenshot.6eefe346.png": "/static/media/calculator-screenshot.6eefe346.png",
+    "static/media/spinningdonut.726e9385.gif": "/static/media/spinningdonut.726e9385.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.b3f50213.js",
+    "static/js/runtime-main.095b0bd5.js",
     "static/js/2.8b6a42f7.chunk.js",
     "static/css/main.da94dfd8.chunk.css",
     "static/js/main.cbd28328.chunk.js"
