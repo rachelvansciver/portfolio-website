@@ -24,12 +24,12 @@ class ParticlesContainer extends React.Component{
                             detectsOn: "canvas",
                             events: {
                                 onClick: {
-                                    enable: false,
+                                    enable: true,
                                     mode: "push"
                                 },
                                 onDiv: {
                                     elementId: "repulse-div",
-                                    enable: false,
+                                    enable: true,
                                     mode: "repulse"
                                 },
                                 onHover: {
@@ -75,7 +75,7 @@ class ParticlesContainer extends React.Component{
                                     duration: 0.4
                                 },
                                 slow: {
-                                    active: false,
+                                    active: true,
                                     radius: 0,
                                     factor: 1
                                 }
@@ -107,7 +107,7 @@ class ParticlesContainer extends React.Component{
                                 enable: true,
                                 outMode: "bounce",
                                 random: true,
-                                speed: 0.1,
+                                speed: 1,
                                 straight: false
                             },
                             number: {
@@ -122,11 +122,11 @@ class ParticlesContainer extends React.Component{
                                 animation: {
                                     enable: true,
                                     minimumValue: 0.3,
-                                    speed: 10,
+                                    speed: 1,
                                     sync: true
                                 },
-                                random: false,
-                                value: 0.6
+                                random: true,
+                                value: 1
                             },
                             shape: {
                                 polygon: {
@@ -143,7 +143,7 @@ class ParticlesContainer extends React.Component{
                                     enable: true,
                                     minimumValue: 0.1,
                                     speed: 0.1,
-                                    sync: false
+                                    sync: true
                                 },
                                 random: true,
                                 value: 2
@@ -152,18 +152,17 @@ class ParticlesContainer extends React.Component{
                         polygon: {
                             draw: {
                                 enable: true,
-                                lineColor: "rgba(0,0,0,0.5)",
-                                lineWidth: 0.5
+                                lineColor: "rgba(0,0,0,1)",
+                                lineWidth: 5
                             },
                             enable: true,
                             position: {
-                                x: 50,
-                                y: 50
+                                x: 45,
+                                y: 25
                             },
                             inlineArrangement: "equidistant",
-                            scale: 0.8,
-                            type: "inline",
-                            url: "https://particles.js.org/images/smalldeer.svg"
+                            scale: .25,
+                            url: "https://raw.githubusercontent.com/rachelvansciver/portfolio-website/fd16877fd227c97e31a9cef85ba78af8153483c0/rocket-solid.svg"
                         },
                     }}/>
             )
