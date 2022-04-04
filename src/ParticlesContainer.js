@@ -10,6 +10,9 @@ class ParticlesContainer extends React.Component{
             particlesLoaded: false,
         }
     }
+    componentDidMount() {
+        this.setState({particlesInit: true, particlesLoaded:true})
+    }
     render(){
         return (
                 <Particles
@@ -19,7 +22,7 @@ class ParticlesContainer extends React.Component{
                     loaded={this.particlesLoaded}
                     options={{
                         detectRetina: false,
-                        fpsLimit: 60,
+                        fpsLimit: 30,
                         interactivity: {
                             detectsOn: "canvas",
                             events: {
@@ -76,7 +79,7 @@ class ParticlesContainer extends React.Component{
                                 },
                                 slow: {
                                     active: true,
-                                    radius: 0,
+                                    radius: 2,
                                     factor: 1
                                 }
                             }
@@ -98,8 +101,8 @@ class ParticlesContainer extends React.Component{
                                 attract: {
                                     enable: true,
                                     rotate: {
-                                        x: 600,
-                                        y: 1200
+                                        x: 300,
+                                        y: 300
                                     }
                                 },
                                 bounce: false,
@@ -107,7 +110,7 @@ class ParticlesContainer extends React.Component{
                                 enable: true,
                                 outMode: "bounce",
                                 random: true,
-                                speed: 1,
+                                speed: 0.1,
                                 straight: false
                             },
                             number: {

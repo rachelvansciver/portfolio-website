@@ -15,16 +15,16 @@ class App extends React.Component {
                     <BrowserRouter>
                         <Menu></Menu>
                         <Switch>
-                            <Route exact path="/portfolio-website">
+                            <Route exact path="/">
                                 <Home></Home>
                             </Route>
-                            <Route exact path = "/portfolio-website/About">
+                            <Route exact path = "/About">
                                 <About></About>
                             </Route>
-                            <Route exact path = "/portfolio-website/Portfolio">
+                            <Route exact path = "/Portfolio">
                                 <Portfolio></Portfolio>
                             </Route>
-                            <Route exact path = "/portfolio-website/Contact">
+                            <Route exact path = "/Contact">
                                 <Contact></Contact>
                             </Route>
                         </Switch>

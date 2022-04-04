@@ -9,7 +9,7 @@ class Home extends React.Component{
         return(
             <div className ="home-page">
                 <h1>Hi, my name is <em>Rachel Van Sciver</em> and I program computers</h1>
-                <NavLink to={"/portfolio-website/Portfolio"}>
+                <NavLink to={"/Portfolio"}>
                     <button className="homebutton">View My Work</button>
                 </NavLink>
             </div>)

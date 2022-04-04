@@ -69,7 +69,7 @@ class Form extends React.Component {
               placeholder="Your Name"
               className = "text-area"
               value={this.state.name}
-              style={{ width: "50%", color: "black" }}
+              style={{ width: "50%", color: "white" }}
               rows={1}
               aria-required="true"
           />
@@ -82,7 +82,7 @@ class Form extends React.Component {
                         placeholder="Your Email"
                         required="required"
                         value={this.state.email}
-                        style={{ width: "50%", color: "black" }}
+                        style={{ width: "50%", color: "white" }}
                         rows={1}
                     />
                     <br />
@@ -94,7 +94,7 @@ class Form extends React.Component {
                         placeholder="Send me something cool"
                         required='required'
                         value={this.state.feedback}
-                        style={{ width: "50%", height: "250px", color: "black"}}
+                        style={{ width: "50%", height: "250px", color: "white"}}
                     />
                     <br />
                     <input
