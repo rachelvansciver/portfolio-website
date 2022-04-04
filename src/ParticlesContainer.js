@@ -51,7 +51,7 @@ class ParticlesContainer extends React.Component{
                                     duration: 2,
                                     opacity: 8,
                                     size: 6,
-                                    speed: 3
+                                    speed: 1
                                 },
                                 connect: {
                                     distance: 80,
@@ -98,7 +98,7 @@ class ParticlesContainer extends React.Component{
                             },
                             move: {
                                 attract: {
-                                    enable: true,
+                                    enable: false,
                                     rotate: {
                                         x: 300,
                                         y: 300
@@ -124,7 +124,7 @@ class ParticlesContainer extends React.Component{
                                 animation: {
                                     enable: true,
                                     minimumValue: 0.3,
-                                    speed: 1,
+                                    speed: 0.1,
                                     sync: true
                                 },
                                 random: true,
@@ -144,7 +144,7 @@ class ParticlesContainer extends React.Component{
                                 animation: {
                                     enable: true,
                                     minimumValue: 0.1,
-                                    speed: 0.1,
+                                    speed: 0.01,
                                     sync: true
                                 },
                                 random: true,
