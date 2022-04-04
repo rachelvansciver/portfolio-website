@@ -1,6 +1,5 @@
 import Particles from "react-tsparticles"
 import React from 'react'
-import {IconFork} from './assets/svg/IconFork'
 
 class ParticlesContainer extends React.Component{
     constructor(props){

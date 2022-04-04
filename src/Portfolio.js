@@ -1,7 +1,6 @@
 import React from 'react';
 import Thumbnail from './Thumbnail'
-import Calculator  from './assets/pictures/calculator-screenshot.png'
-import Donut from './assets/pictures/spinningdonut.gif'
+
 class Portfolio extends React.Component {
     constructor(props) {
         super(props);
@@ -26,7 +25,7 @@ class Portfolio extends React.Component {
                            link={'View Refactored Code'} onClick={this.handleClick.bind(this)}></Thumbnail>
                 </li>
                 <li>
-                    <Thumbnail caption='Vue Weather' alt={'Calculator'} description='An app to get weather anywhere in the world'
+                    <Thumbnail caption='Vue Weather' alt={'Vue Weather'} description='An app to get weather anywhere in the world'
                            url={'https://rachelvansciver.github.io/'} link={'Visit my website'} onClick={this.handleClick.bind(this)}></Thumbnail>
                 </li>
                     <Thumbnail caption='Calculator' alt={'Calculator'} description='A simple calculator, with a parser and syntax tree, written in Java'
